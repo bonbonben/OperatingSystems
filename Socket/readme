@@ -1,0 +1,6 @@
+TCP socket client and server programs:
+step 1: Open two terminals
+step 2: Enter "gcc -o server server.c -lpthread" and "gcc -o client client.c -lpthread" to compile
+step 3: Enter "./server 8000" and "./client 127.0.0.1 8000" to execute
+step 4: Enter message directly / Enter "file" then enter file name to send file
+step 5: Enter "quit" to quit
