@@ -1,0 +1,11 @@
+Goal:
+1. Use the binary search tree to search for the specified number in the file and output the number of occurrences
+2. Program parameters: Input file name and output file name
+3. The first line in the input file is the specified number and the second line starts with 1000 random integers
+4. Construct a binary search tree according to the integers in the input file
+5. Each search number needs to be searched by a single thread
+6. Write the number of occurrences to the output file
+
+Step 1: Enter "gcc -o hw3 hw3.c -fopenmp" to compile
+Step 2: Enter "./hw3 OS_HW3_input1.txt result.txt" to execute
+Step 3: Open result.txt to see the result
