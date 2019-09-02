@@ -1,0 +1,13 @@
+Goal:
+Execute commands including "ps", "ls", "cat", "pwd", "echo", "date", "time", "du", "mkdir", "cd", ">>", "hw4", "tar", "df"
+
+Step 1: Enter "gcc -o hw4 hw4.c" to compile
+Step 2: Enter "./hw4" to execute program
+Step 3: Enter command after $$
+Step 4: Enter "hw4 xxx.sh" to execute xxx.sh
+
+Shell script example:
+#!This is homework 4 shell
+echo hello I love OS >> test.txt
+time mkdir filename
+#----------------------
